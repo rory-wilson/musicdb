@@ -1,0 +1,37 @@
+{
+  "name": "musicdb",
+  "version": "1.0.0",
+  "description": "Database of classical music by orchestration",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "fetch": "babel-node src/fetch.js",
+    "parse": "babel-node src/parse.js",
+    "build": "babel src --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rory-wilson/musicdb.git"
+  },
+  "author": "Rory Wilson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rory-wilson/musicdb/issues"
+  },
+  "homepage": "https://github.com/rory-wilson/musicdb#readme",
+  "dependencies": {
+    "axios": "^0.18.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.3.4",
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "prettier": "^1.16.4"
+  }
+}
